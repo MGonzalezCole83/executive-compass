@@ -26,6 +26,7 @@ ENTITY = {  # validated categorical palette (dataviz-checked 25 Jul 2026)
     "Personal": ("#1baf7a", "Personal"),
     "Emerging/Dormant Ventures": ("#4a3aa7", "Ventures"),
     "Spain": ("#eda100", "Spain"),
+    "Gabrion Holdings": ("#008300", "Gabrion"),
 }
 CRIT, WARN_BG, WARN_INK = "#d03b3b", "#fdf3dd", "#8a5b00"
 WEEK = 7
