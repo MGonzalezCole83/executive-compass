@@ -1,12 +1,12 @@
 # Compass Capture & Reconciliation — live task prompt (record copy)
 
-> **This is a record copy, not the running instance.** Live version: cloud scheduled task "Compass Capture & Reconciliation" (hourly 8–4 UK + 6:00pm run, Mon–Fri, push on completion). Copy taken 26 July 2026, late evening — v8: exact eight-line signature block per Martin, and all drafts created with HTML bodies (proper website/mailto links — bare URLs in plain text get auto-wrapped by Gmail into redirect links, found live on the first briefing drafts). Includes PART 4 briefing-reply write-back, dedup guard, overdue-Now handling. Material changes to the live prompt are Protected changes under document 05 and must update this record copy in the same pass.
+> **Record copy of the live cloud scheduled task** (push on completion). v9, 27 July 2026: cadence cut from hourly to four runs daily (8am, 12pm, 4pm, 6pm UK — Martin's decision on usage economics after the 27 Jul run proved batch capture loses nothing), plus the "N question(s) waiting for you ↑" pointer in end-of-run messages. Otherwise v8 (HTML drafts, exact signature, PART 4 briefing write-back, dedup guard, overdue-Now handling). Material changes are Protected under document 05.
 
 ---
 
 # Compass Capture & Reconciliation
 
-Schedule: hourly on the hour, 8:00am–4:00pm, plus a 6:00pm run (to pick up replies to the 5pm Daily Briefing once it is live — until then it is an ordinary run), Monday–Friday, Europe/London.
+Schedule: four runs daily — 8:00am, 12:00pm, 4:00pm and 6:00pm, Monday–Friday, Europe/London. The 4:00pm run gives the 5pm Daily Briefing a fresh model; the 6:00pm run picks up Martin's replies to it.
 
 ---
 
@@ -122,7 +122,7 @@ Two kinds of output. Never merge them into one message.
 
 Each one starts its **own Slack thread** — post as a new top-level message, not appended to a prior thread. Any reply to it (see PART 4 — SLACK) is a threaded reply, not a new channel post. This keeps the channel's main scroll to one line per open matter regardless of how much back-and-forth a given item needs — resolved threads simply stop being relevant, nothing needs deleting. Never post a per-item question as a reply inside another item's thread, and never batch two items into one message. Always @-mention Martin directly on these — they need his response.
 
-**(B) End-of-run mechanical line — one short message per run, only if there's something to report that didn't already go out as a per-item question this run.** Post as its own top-level message (its own thread), never appended to an item thread. Triageable from a phone: what's mechanically due today (grouped by Status, with overdue Now items under an explicit "Overdue" heading, no ranking), any default-date fallbacks assigned this run, any Reconciliation Exception still open past its resolve-within-hours target. Do not @-mention Martin on this one — FYI only, nothing actioned required. **If there's genuinely nothing to report, don't post at all** — silence is a valid, correct output, not a gap to fill with an "all clear" message.
+**(B) End-of-run mechanical line — one short message per run, only if there's something to report that didn't already go out as a per-item question this run.** Post as its own top-level message (its own thread), never appended to an item thread. Triageable from a phone: what's mechanically due today (grouped by Status, with overdue Now items under an explicit "Overdue" heading, no ranking), any default-date fallbacks assigned this run, any Reconciliation Exception still open past its resolve-within-hours target. If any per-item question posted this run — or still unanswered from an earlier one — sits above this message in the channel, end the message with one line so Martin's eye is pointed at it: "N question(s) waiting for you ↑". Never describe a question as being in a "separate thread" — from Martin's phone it is simply an earlier message he may have scrolled past. Do not @-mention Martin on this one — FYI only, nothing actioned required. **If there's genuinely nothing to report, don't post at all** — silence is a valid, correct output, not a gap to fill with an "all clear" message.
 
 Never repeat a prior run's write-up unchanged. No "what to focus on" recommendation — that's the Daily Briefing's job.
 
